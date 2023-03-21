@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-21T01:36:28.897Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="xbluV2SI4K68bgWTT1qF" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-21T01:36:51.505Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="rHMro-1iYNqUlvxYg5bK" version="21.0.8" type="github">
   <diagram name="Page-1" id="4bd5d27a-524c-7e24-5d5f-89a86ee4fca1">
     <mxGraphModel dx="1728" dy="930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -116,10 +116,10 @@
           <mxGeometry x="1140" y="110" width="240" height="240" as="geometry" />
         </mxCell>
         <mxCell id="g7jsXfoqghb-dVBww1vz-46" value="Laundry Basket" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="120" width="270" height="30" as="geometry" />
+          <mxGeometry x="1400" y="120" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="g7jsXfoqghb-dVBww1vz-47" value="&lt;b&gt;Label:&lt;/b&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Customer Name&lt;/li&gt;&lt;li&gt;Customer Phone&lt;/li&gt;&lt;li&gt;Bleach: Yes / No&lt;/li&gt;&lt;li&gt;Delicate: Yes / No&lt;/li&gt;&lt;li&gt;Heat: High/Low&lt;/li&gt;&lt;li&gt;Stage: Wash/Dry/Iron&lt;/li&gt;&lt;li&gt;Issue to Notify the Customer&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;horizontal=1;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="180" width="380" height="110" as="geometry" />
+          <mxGeometry x="1400" y="175" width="380" height="110" as="geometry" />
         </mxCell>
         <mxCell id="g7jsXfoqghb-dVBww1vz-48" value="&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Counter&lt;/b&gt;: Asynchronous Operation Start/End&lt;/li&gt;&lt;li&gt;&lt;b&gt;Manager&lt;/b&gt;: Task Manager&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Customer: &lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Synchronous Start/End&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Worker&lt;/b&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;: Thread&lt;/span&gt;&lt;br&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Laundry Basket&lt;/b&gt;: Task&lt;/li&gt;&lt;li&gt;&lt;b&gt;Laundry Basket Label:&lt;/b&gt; Execution Context&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="38" y="43" width="340" height="117" as="geometry" />
