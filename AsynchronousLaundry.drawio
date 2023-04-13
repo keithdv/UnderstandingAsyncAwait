@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-27T01:27:51.444Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="WBd3A1ZN7-Ap_mgssDI9" version="21.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T01:16:38.637Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="P-oA6EpqJwXwK_ReB7xM" version="21.1.4" type="github">
   <diagram name="Page-1" id="4bd5d27a-524c-7e24-5d5f-89a86ee4fca1">
-    <mxGraphModel dx="1430" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1430" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -121,71 +121,95 @@
         <mxCell id="g7jsXfoqghb-dVBww1vz-51" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Execution Context:&lt;/b&gt; Laundry Basket Label&#39;s information providing the context of the laundering.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;Synchronization Context:&lt;/b&gt; Does the label indicate a specific worker &lt;b&gt;must &lt;/b&gt;pick up the laundry basket?&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - Example: Only one worker can iron delicates.&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1150" y="20" width="560" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="Fh-boIdkFp-sPABAg9bJ-1" value="Synchronous Start / End" style="text;strokeColor=#d6b656;align=center;fillColor=#fff2cc;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Fh-boIdkFp-sPABAg9bJ-1" value="Synchronous Start / End" style="text;strokeColor=#d6b656;align=center;fillColor=#fff2cc;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="70" y="260" width="78" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Fh-boIdkFp-sPABAg9bJ-2" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="Fh-boIdkFp-sPABAg9bJ-2" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="148" y="290" as="sourcePoint" />
             <mxPoint x="188" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fh-boIdkFp-sPABAg9bJ-3" value="Threads" style="text;strokeColor=#d6b656;align=center;fillColor=#fff2cc;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Fh-boIdkFp-sPABAg9bJ-3" value="Threads" style="text;strokeColor=#d6b656;align=center;fillColor=#fff2cc;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="352.5" y="250" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Fh-boIdkFp-sPABAg9bJ-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1">
+        <mxCell id="Fh-boIdkFp-sPABAg9bJ-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="381.81" y="280" as="sourcePoint" />
             <mxPoint x="382.31" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fh-boIdkFp-sPABAg9bJ-6" value="Tasks" style="text;strokeColor=#d6b656;align=center;fillColor=#fff2cc;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Fh-boIdkFp-sPABAg9bJ-6" value="Tasks" style="text;strokeColor=#d6b656;align=center;fillColor=#fff2cc;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="265" y="230" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Fh-boIdkFp-sPABAg9bJ-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1">
+        <mxCell id="Fh-boIdkFp-sPABAg9bJ-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="294.31" y="260" as="sourcePoint" />
             <mxPoint x="294.81" y="310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fh-boIdkFp-sPABAg9bJ-8" value="Task&lt;br&gt;Manager" style="text;strokeColor=#d6b656;align=center;fillColor=#fff2cc;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Fh-boIdkFp-sPABAg9bJ-8" value="Task&lt;br&gt;Manager" style="text;strokeColor=#d6b656;align=center;fillColor=#fff2cc;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="265" y="670" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Fh-boIdkFp-sPABAg9bJ-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1">
+        <mxCell id="Fh-boIdkFp-sPABAg9bJ-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="294.66" y="660" as="sourcePoint" />
             <mxPoint x="295.35" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fh-boIdkFp-sPABAg9bJ-10" value="Network&lt;br&gt;Call" style="text;strokeColor=#d6b656;align=center;fillColor=#fff2cc;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Fh-boIdkFp-sPABAg9bJ-10" value="Network&lt;br&gt;Call" style="text;strokeColor=#d6b656;align=center;fillColor=#fff2cc;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="740" y="380" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Fh-boIdkFp-sPABAg9bJ-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="Fh-boIdkFp-sPABAg9bJ-10">
+        <mxCell id="Fh-boIdkFp-sPABAg9bJ-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="Fh-boIdkFp-sPABAg9bJ-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="740" y="355" as="sourcePoint" />
             <mxPoint x="671" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fh-boIdkFp-sPABAg9bJ-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="Fh-boIdkFp-sPABAg9bJ-10">
+        <mxCell id="Fh-boIdkFp-sPABAg9bJ-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" source="Fh-boIdkFp-sPABAg9bJ-10" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="759.31" y="415" as="sourcePoint" />
             <mxPoint x="670" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fh-boIdkFp-sPABAg9bJ-14" value="Work" style="text;strokeColor=#d6b656;align=center;fillColor=#fff2cc;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Fh-boIdkFp-sPABAg9bJ-14" value="Work" style="text;strokeColor=#d6b656;align=center;fillColor=#fff2cc;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="660" y="670" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Fh-boIdkFp-sPABAg9bJ-15" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1">
+        <mxCell id="Fh-boIdkFp-sPABAg9bJ-15" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="689.6600000000001" y="660" as="sourcePoint" />
             <mxPoint x="690.35" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Fh-boIdkFp-sPABAg9bJ-16" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1">
+        <mxCell id="Fh-boIdkFp-sPABAg9bJ-16" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="148" y="290" as="sourcePoint" />
             <mxPoint x="188" y="330" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="vGjGZ9vamuKKGBP4lUYQ-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/sports-outline-24-px/24/shirt_sport_trickot_tshirt_clothes-128.png" vertex="1" parent="1">
+          <mxGeometry x="342.5" y="645" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vGjGZ9vamuKKGBP4lUYQ-2" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/laundry-time/100/clothes_basket-128.png" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="635" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vGjGZ9vamuKKGBP4lUYQ-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/sports-outline-24-px/24/shirt_sport_trickot_tshirt_clothes-128.png" vertex="1" parent="1">
+          <mxGeometry x="342.5" y="605" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vGjGZ9vamuKKGBP4lUYQ-4" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/laundry-time/100/clothes_basket-128.png" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="595" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vGjGZ9vamuKKGBP4lUYQ-5" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/sports-outline-24-px/24/shirt_sport_trickot_tshirt_clothes-128.png" vertex="1" parent="1">
+          <mxGeometry x="388" y="645" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vGjGZ9vamuKKGBP4lUYQ-6" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/laundry-time/100/clothes_basket-128.png" vertex="1" parent="1">
+          <mxGeometry x="378" y="635" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vGjGZ9vamuKKGBP4lUYQ-7" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/sports-outline-24-px/24/shirt_sport_trickot_tshirt_clothes-128.png" vertex="1" parent="1">
+          <mxGeometry x="388" y="605" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vGjGZ9vamuKKGBP4lUYQ-8" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/laundry-time/100/clothes_basket-128.png" vertex="1" parent="1">
+          <mxGeometry x="378" y="595" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
