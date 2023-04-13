@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-13T15:09:47.548Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="yMA2go6BTefnBrdeRt3g" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-13T15:20:58.691Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="C3up_lwPLao9gM9eFyV-" version="21.1.7" type="github">
   <diagram name="Page-1" id="4bd5d27a-524c-7e24-5d5f-89a86ee4fca1">
-    <mxGraphModel dx="1430" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1430" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -143,7 +143,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Fh-boIdkFp-sPABAg9bJ-8" value="Task&lt;br&gt;Manager" style="text;strokeColor=#d6b656;align=center;fillColor=#fff2cc;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="372.5" y="500" width="60" height="30" as="geometry" />
+          <mxGeometry x="364" y="495" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Fh-boIdkFp-sPABAg9bJ-9" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;width=14.482758620689655;endSize=3.9655172413793105;endWidth=12.080856123662308;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -195,6 +195,15 @@
         </mxCell>
         <mxCell id="KeNLD82T5rs6FXo00Sr7-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/sports-outline-24-px/24/shirt_sport_trickot_tshirt_clothes-128.png" vertex="1" parent="1">
           <mxGeometry x="455" y="635" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KeNLD82T5rs6FXo00Sr7-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;width=14.482758620689655;endSize=3.9655172413793105;endWidth=12.080856123662308;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="359.31" y="649.31" as="sourcePoint" />
+            <mxPoint x="325" y="649.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KeNLD82T5rs6FXo00Sr7-5" value="Task.Result, .Wait()" style="text;strokeColor=#d6b656;align=center;fillColor=#fff2cc;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365.5" y="635" width="74.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
