@@ -5,8 +5,6 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskDelegateContinueWith", "TaskDelegateContinueWith\TaskDelegateContinueWith.csproj", "{0FFCC513-6F70-4397-9B60-09C1B77120C7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LostException", "LostException\LostException.csproj", "{84687593-5FBF-43CE-8FCB-1BF093A7CF4D}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LostTasksOnClose", "LostTasksOnClose\LostTasksOnClose.csproj", "{024B335C-5964-4CCD-AED7-24C5FBDC3196}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExecutionContext", "ExecutionContext\ExecutionContext.csproj", "{A23F87B1-2C57-46A3-86EA-304FABA38FED}"
@@ -19,6 +17,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PerformanceSync", "Performa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Server\Server.csproj", "{3E707702-AEC0-41D6-94FF-C06BF4A2A6A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncVoidLostException", "AsyncVoidLostException\AsyncVoidLostException.csproj", "{F64B44CA-4D07-43D4-83BC-7106429157CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoAwaitLostException", "NoAwaitLostException\NoAwaitLostException.csproj", "{3C945F5F-FAD3-4051-88C0-DC3C6773E51D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,10 +31,6 @@ Global
 		{0FFCC513-6F70-4397-9B60-09C1B77120C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0FFCC513-6F70-4397-9B60-09C1B77120C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0FFCC513-6F70-4397-9B60-09C1B77120C7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{84687593-5FBF-43CE-8FCB-1BF093A7CF4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{84687593-5FBF-43CE-8FCB-1BF093A7CF4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{84687593-5FBF-43CE-8FCB-1BF093A7CF4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{84687593-5FBF-43CE-8FCB-1BF093A7CF4D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{024B335C-5964-4CCD-AED7-24C5FBDC3196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{024B335C-5964-4CCD-AED7-24C5FBDC3196}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{024B335C-5964-4CCD-AED7-24C5FBDC3196}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -57,6 +55,14 @@ Global
 		{3E707702-AEC0-41D6-94FF-C06BF4A2A6A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E707702-AEC0-41D6-94FF-C06BF4A2A6A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E707702-AEC0-41D6-94FF-C06BF4A2A6A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F64B44CA-4D07-43D4-83BC-7106429157CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F64B44CA-4D07-43D4-83BC-7106429157CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F64B44CA-4D07-43D4-83BC-7106429157CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F64B44CA-4D07-43D4-83BC-7106429157CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C945F5F-FAD3-4051-88C0-DC3C6773E51D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C945F5F-FAD3-4051-88C0-DC3C6773E51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C945F5F-FAD3-4051-88C0-DC3C6773E51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C945F5F-FAD3-4051-88C0-DC3C6773E51D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

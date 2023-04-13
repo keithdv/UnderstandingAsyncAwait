@@ -5,7 +5,8 @@ using System.Collections.Concurrent;
 using System.Diagnostics;
 
 var httpClient = new HttpClient();
-ConcurrentBag<(int index, int threadId, long elapsedMilliseconds)> callInfoQueue = new ConcurrentBag<(int index, int threadId, long)>();
+ConcurrentBag<(int index, int threadId, long elapsedMilliseconds)> callInfoQueue 
+    = new ConcurrentBag<(int index, int threadId, long)>();
 
 Stopwatch stopwatch = new Stopwatch();
 stopwatch.Start();
@@ -33,7 +34,9 @@ await Task.WhenAll(tasks);
 
 stopwatch.Stop();
 
-callInfoQueue.OrderBy(x => x.threadId).ThenBy(x => x.index).ToList().ForEach(x => Console.WriteLine($"Thread: {x.threadId} Call:{x.index} Elapsed:{x.elapsedMilliseconds}"));
+callInfoQueue.OrderBy(x => x.threadId)
+    .ThenBy(x => x.index).ToList()
+    .ForEach(x => Console.WriteLine($"Thread: {x.threadId} Call:{x.index} Elapsed:{x.elapsedMilliseconds}"));
 Console.WriteLine($"Async Elapsed Time: {stopwatch.Elapsed.TotalMilliseconds}ms");
 
 Console.ReadLine();

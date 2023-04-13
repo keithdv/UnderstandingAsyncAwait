@@ -7,7 +7,8 @@ using System.Diagnostics;
 // ThreadPool.SetMinThreads(100, 100); // Demonstrational purposes only. Not a solution!!
 
 var httpClient = new HttpClient();
-ConcurrentBag<(int index, int threadId, long elapsedMilliseconds)> callInfoQueue = new ConcurrentBag<(int index, int threadId, long)>();
+ConcurrentBag<(int index, int threadId, long elapsedMilliseconds)> callInfoQueue 
+    = new ConcurrentBag<(int index, int threadId, long)>();
 
 Stopwatch stopwatch = new Stopwatch();
 stopwatch.Start();
@@ -31,7 +32,9 @@ Parallel.For(0, 100, i =>
 
 stopwatch.Stop();
 
-callInfoQueue.OrderBy(x => x.elapsedMilliseconds).ThenBy(x => x.threadId).ToList().ForEach(x => Console.WriteLine($"Thread: {x.threadId} Call:{x.index} Elapsed:{x.elapsedMilliseconds}"));
+callInfoQueue.OrderBy(x => x.elapsedMilliseconds)
+    .ThenBy(x => x.threadId).ToList()
+    .ForEach(x => Console.WriteLine($"Thread: {x.threadId} Call:{x.index} Elapsed:{x.elapsedMilliseconds}"));
 Console.WriteLine($"Sync Elapsed Time: {stopwatch.Elapsed.TotalMilliseconds}ms");
 
 Console.ReadLine();
