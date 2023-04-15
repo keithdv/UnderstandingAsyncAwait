@@ -34,9 +34,9 @@ await Task.WhenAll(tasks);
 
 stopwatch.Stop();
 
-callInfoQueue.OrderBy(x => x.threadId)
+callInfoQueue.OrderBy(x => x.elapsedMilliseconds)
     .ThenBy(x => x.index).ToList()
-    .ForEach(x => Console.WriteLine($"Thread: {x.threadId} Call:{x.index} Elapsed:{x.elapsedMilliseconds}"));
+    .ForEach(x => Console.WriteLine($"Call:{x.index} Thread: {x.threadId} Elapsed:{x.elapsedMilliseconds}"));
 Console.WriteLine($"Async Elapsed Time: {stopwatch.Elapsed.TotalMilliseconds}ms");
 
 Console.ReadLine();
